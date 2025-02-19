@@ -36,7 +36,7 @@ modules:
         dest-filename: raspirus.deb
       - type: git
         url: https://github.com/Raspirus/raspirus.git
-        commit: d1f9d23d209ab8be467c1f217bb6234fa9d328a2
+        commit: f763d1211a10a5b18b2a8567e9d784cac3afb111
 
     build-commands:
       - bsdtar -Oxf raspirus.deb data.tar.* | bsdtar -xf -
